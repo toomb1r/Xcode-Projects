@@ -1,9 +1,9 @@
-//
+//  Tiffany Behr
 //  AppDelegate.swift
 //  wsuClass
 //
 //  Created by wsucatslabs on 9/9/22.
-//
+//  Project 00A
 
 import UIKit
 

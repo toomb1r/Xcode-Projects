@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		97113CCE28CBB6F8009F21E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97113CCD28CBB6F8009F21E3 /* AppDelegate.swift */; };
 		97113CD028CBB6F8009F21E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97113CCF28CBB6F8009F21E3 /* SceneDelegate.swift */; };
-		97113CD228CBB6F8009F21E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97113CD128CBB6F8009F21E3 /* ViewController.swift */; };
+		97113CD228CBB6F8009F21E3 /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97113CD128CBB6F8009F21E3 /* ReminderListViewController.swift */; };
 		97113CD528CBB6F8009F21E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97113CD328CBB6F8009F21E3 /* Main.storyboard */; };
 		97113CD728CBB6F9009F21E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97113CD628CBB6F9009F21E3 /* Assets.xcassets */; };
 		97113CDA28CBB6F9009F21E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97113CD828CBB6F9009F21E3 /* LaunchScreen.storyboard */; };
+		97113CE528CBB8A4009F21E3 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97113CE428CBB8A4009F21E3 /* Reminder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		97113CCA28CBB6F8009F21E3 /* wsuClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wsuClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97113CCD28CBB6F8009F21E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97113CCF28CBB6F8009F21E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		97113CD128CBB6F8009F21E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97113CD128CBB6F8009F21E3 /* ReminderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListViewController.swift; sourceTree = "<group>"; };
 		97113CD428CBB6F8009F21E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97113CD628CBB6F9009F21E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97113CD928CBB6F9009F21E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97113CDB28CBB6F9009F21E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97113CE428CBB8A4009F21E3 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				97113CCF28CBB6F8009F21E3 /* SceneDelegate.swift */,
-				97113CD128CBB6F8009F21E3 /* ViewController.swift */,
+				97113CD128CBB6F8009F21E3 /* ReminderListViewController.swift */,
 				97113CCD28CBB6F8009F21E3 /* AppDelegate.swift */,
 			);
 			path = Controller;
@@ -87,6 +89,7 @@
 		97113CE328CBB72A009F21E3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				97113CE428CBB8A4009F21E3 /* Reminder.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -162,9 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97113CD228CBB6F8009F21E3 /* ViewController.swift in Sources */,
+				97113CD228CBB6F8009F21E3 /* ReminderListViewController.swift in Sources */,
 				97113CCE28CBB6F8009F21E3 /* AppDelegate.swift in Sources */,
 				97113CD028CBB6F8009F21E3 /* SceneDelegate.swift in Sources */,
+				97113CE528CBB8A4009F21E3 /* Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
